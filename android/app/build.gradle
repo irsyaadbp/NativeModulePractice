@@ -1,4 +1,5 @@
 apply plugin: "com.android.application"
+apply plugin: 'kotlin-android'
 
 import com.android.build.OutputFile
 
@@ -189,6 +190,7 @@ dependencies {
     implementation "com.facebook.react:react-native:+"  // From node_modules
     implementation 'com.github.prolificinteractive:material-calendarview:1.6.0'
     implementation 'com.jakewharton.threetenabp:threetenabp:1.2.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 

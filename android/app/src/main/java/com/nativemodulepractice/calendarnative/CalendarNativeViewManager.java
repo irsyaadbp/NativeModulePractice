@@ -1,4 +1,4 @@
-package com.nativemodulepractice.CalendarNative;
+package com.nativemodulepractice.calendarnative;
 
 import androidx.annotation.NonNull;
 

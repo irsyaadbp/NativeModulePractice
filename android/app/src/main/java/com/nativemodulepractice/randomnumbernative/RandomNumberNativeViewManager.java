@@ -1,4 +1,4 @@
-package com.nativemodulepractice.RandomNumberNative;
+package com.nativemodulepractice.randomnumbernative;
 
 import android.content.Context;
 import android.view.LayoutInflater;

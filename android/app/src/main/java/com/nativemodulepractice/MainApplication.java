@@ -8,8 +8,9 @@ import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
-import com.nativemodulepractice.CalendarNative.CalendarNativePackage;
-import com.nativemodulepractice.RandomNumberNative.RandomNumberNativePackage;
+import com.nativemodulepractice.calendarnative.CalendarNativePackage;
+import com.nativemodulepractice.randomnumbernative.RandomNumberNativePackage;
+import com.nativemodulepractice.randomnumberkotlin.RandomNumberKotlinPackage;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
@@ -30,6 +31,7 @@ public class MainApplication extends Application implements ReactApplication {
           // Packages that cannot be autolinked yet can be added manually here, for example:
            packages.add(new RandomNumberNativePackage());
            packages.add(new CalendarNativePackage());
+           packages.add(new RandomNumberKotlinPackage());
           return packages;
         }
 
